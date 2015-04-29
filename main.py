@@ -60,17 +60,55 @@ def load_itunes(libpath):
 
 
 #Loading Google Play Music Library
-def load_gmusic():
+def gmusic_login():
+    """
+    Interactive login for gmusicapi
+    :return: Returns a Mobileclient session
+    """
     #What do I need to load gmusic?
+    username = raw_input("Google Username: ")
+    password = raw_input("Password (or app-specific password): ")
+    session = gmusicapi.Mobileclient()
+    login_result = session.login(username, password)
+    if login_result:
+        return session
+    else:
+        raise LoginError
+
+
+class LoginError(Exception):
+    """
+    Exception for a bad Google login
+    """
     pass
 
+def gmusic_getsongs(session):
+    """
+    :param session: expects a Mobileclient login session.
+    :return: Returns a dict of songs
+    """
+    try:
+        songs = session.get_all_songs()
+    except gmusicapi.exceptions.NotLoggedIn:
+        raise LoginError
+    #Check if I have to do any data cleaning
+    #something I noticed, only songs that AREN'T uploaded will have a trackType
+    return songs
 
 #match iTunes songs to GPM songs
-def match_songs(ituneslib,gmusiclib,exactmatch = True, tolerance = 2):
+def match_songs(itsongs,gmsongs,exactmatch = True, tolerance = 2):
+    """
+    :param itsongs: A list of dicts of songs from iTunes
+    :param gmsongs: A list of dicts of songs from Google Play Music
+    :param exactmatch: Whether
+    :param tolerance:
+    :return: A dict of matches, close matches, and mismatches. Each a list of tuples.
+    """
     #tolerance is the Levenshtein distance between 2 possible track names
     #runtime is O(mn), should I worry about performance? We'll see later!
     #^  Note to self: Look up Levenshtein Automata later. O(n)
     #PS: don't expect these defaults to last until I say it's okay.
+
     pass
 
 #Updating Play Counts
