@@ -15,7 +15,7 @@
 
 #Tools: pyItunes and gmusicapi
 
-import plistlib #Later, I'll use pyItunes
+import plistlib  # Later, I'll use pyItunes
 import gmusicapi
 
 #Broadly, Functions needed:
@@ -26,10 +26,10 @@ import gmusicapi
 
 #More Specifically:
 
+
 #Loading iTunes library
 def load_itunes(libpath):
     """
-
     :rtype : list
     :param libpath: path to the XML copy of the iTunes Library
     :return: A list of song dicts
@@ -39,20 +39,19 @@ def load_itunes(libpath):
     #That day is not today.
     ituneslib = plistlib.readPlist(libpath)
 
-
     music = (playlist for playlist in ituneslib['Playlists']
-        if playlist["Name"] == "Music").next() #StackOverflow #8653516
+             if playlist["Name"] == "Music").next()  # StackOverflow #8653516
     assert music['Name'] == 'Music' and music['All Items']
 
-    songIDs = []
+    songids = []
     for element in music['Playlist Items']:
-        songIDs.append(element['Track ID'])
-    assert all(isinstance(trackid,int) for trackid in songIDs)
+        songids.append(element['Track ID'])
+    assert all(isinstance(trackid, int) for trackid in songids)
 
     songs = []
-    for trackid in songIDs:
+    for trackid in songids:
         songs.append(ituneslib['Tracks'][str(trackid)])
-    assert all(isinstance(song,dict) for song in songs)
+    assert all(isinstance(song, dict) for song in songs)
 
     #Later in life, I'll use pyItunes' data cleaning code.
 
@@ -82,21 +81,21 @@ class LoginError(Exception):
     """
     pass
 
+
 def gmusic_getsongs(session):
     """
     :param session: expects a Mobileclient login session.
     :return: Returns a dict of songs
     """
-    try:
-        songs = session.get_all_songs()
-    except gmusicapi.exceptions.NotLoggedIn:
-        raise LoginError
+    songs = session.get_all_songs()
+    #Catch the NotLoggedIn exception
     #Check if I have to do any data cleaning
-    #something I noticed, only songs that AREN'T uploaded will have a trackType
+    #something I noticed, only songs that are from Google will have a trackType
     return songs
 
+
 #match iTunes songs to GPM songs
-def match_songs(itsongs,gmsongs,exactmatch = True, tolerance = 2):
+def match_songs(itsongs, gmsongs, exactmatch=True, tolerance=2):
     """
     :param itsongs: A list of dicts of songs from iTunes
     :param gmsongs: A list of dicts of songs from Google Play Music
@@ -111,6 +110,7 @@ def match_songs(itsongs,gmsongs,exactmatch = True, tolerance = 2):
 
     pass
 
+
 #Updating Play Counts
 #2 ways - Either Applescript (mac only!) or spitting out a new XML file.
 def update_itunes_playcount():
@@ -123,5 +123,5 @@ if __name__ == "__main__":
     args = sys.argv
     assert os.path.isfile(args[1])
 
-    itsongs = load_itunes(args[1])
-    print(itsongs[1])
+    itunes_song_list = load_itunes(args[1])
+    print(itunes_song_list[1])
