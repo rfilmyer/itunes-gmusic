@@ -17,6 +17,7 @@
 
 import plistlib  # Later, I'll use pyItunes
 import gmusicapi
+# import fuzzywuzzy # Fuzzy string matching!
 
 #Broadly, Functions needed:
 #Loading iTunes library
@@ -95,20 +96,63 @@ def gmusic_getsongs(session):
 
 
 #match iTunes songs to GPM songs
-def match_songs(itsongs, gmsongs, exactmatch=True, tolerance=2):
+def exact_match_songs(isonglist, gsonglist):
     """
-    :param itsongs: A list of dicts of songs from iTunes
-    :param gmsongs: A list of dicts of songs from Google Play Music
-    :param exactmatch: Whether
-    :param tolerance:
-    :return: A dict of matches, close matches, and mismatches. Each a list of tuples.
+    :param isonglist:
+    :param gsonglist:
+    :return: A dict of lists of tuples.
     """
-    #tolerance is the Levenshtein distance between 2 possible track names
-    #runtime is O(mn), should I worry about performance? We'll see later!
-    #^  Note to self: Look up Levenshtein Automata later. O(n)
-    #PS: don't expect these defaults to last until I say it's okay.
+    result = {"match": [], "imismatch": [], "gmismatch": []}
+    gmatches = []
+    imatches = []
 
-    pass
+    for gsong in gsonglist:
+        imatch = next((isong for isong in isonglist if isong['Name'] == gsong['title']), None)
+        # print(imatch)
+        if imatch:
+            gmatches.append(gsong['id'])
+            imatches.append(imatch['Track ID'])
+            # print(isong['Track ID'])
+            result['match'].append((imatch['Track ID'], gsong['id']))
+        # else:
+            # print("No match.")
+
+    # print("gmatches: " + str(len(gmatches)))
+    # print("gmatches: " + str(gmatches[0:4]))
+
+    for gsong in gsonglist:
+        if gsong['id'] not in gmatches:
+            result['gmismatch'].append(gsong['id'])
+
+    # print("imatches: " + str(len(imatches)))
+    # print("imatches: " + str(imatches[0:4]))
+
+    for isong in isonglist:
+        if isong['Track ID'] not in imatches:
+            result['imismatch'].append(isong['Track ID'])
+
+    return result
+
+def close_match_songs(isonglist, gsonglist, closematch=False, tolerance=2):
+    """
+    :param isonglist: A list of dicts of songs from iTunes
+    :param isonglist: A list of dicts of songs from Google Play Music
+    :param closematch: Whether to look for exact matches or close matches.
+    :param tolerance: Levenshtein distance between 2 track names/artists.
+    :return: A dict of lists of tuples.
+    Each match is a tuple between an iTunes trackID and a Google trackID
+    """
+    #tuples match itunes trackIDs with gmusic nids
+
+    #Lev D runtime is O(mn), should I worry about performance?
+    #^  Note to self: Look up Levenshtein Automata later. O(n)
+
+    result = {"match": [], "closematch": [], "imismatch": [], "gmismatch": []}
+
+    #match gmusic uploaded tracks with itunes tracks
+    for song in gsonglist:
+        pass
+    return result
 
 
 #Updating Play Counts
@@ -124,4 +168,12 @@ if __name__ == "__main__":
     assert os.path.isfile(args[1])
 
     itunes_song_list = load_itunes(args[1])
-    print(itunes_song_list[1])
+    print("Loaded iTunes Library...")
+    gsession = gmusic_login()
+    print("Logged in to Google...")
+    google_song_list = gmusic_getsongs(gsession)
+    print("Google Songs Downloaded...")
+    matches = exact_match_songs(itunes_song_list, google_song_list)
+    print("Matches: " + str(len(matches['match'])) +
+          ", iTunes Mismatches: " + str(len(matches['imismatch'])) +
+          ", Google Mismatches: " + str(len(matches['gmismatch'])))
