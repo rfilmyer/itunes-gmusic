@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2015-05-13T17:20:40Z</date>
+	<key>Application Version</key><string>12.1.2.27</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/</string>
+	<key>Library Persistent ID</key><string>381899F85D520BD8</string>
+	<key>Tracks</key>
+	<dict>
+		<key>5354</key>
+		<dict>
+			<key>Track ID</key><integer>5354</integer>
+			<key>Name</key><string>Come Together</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7562708</integer>
+			<key>Total Time</key><integer>260675</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:35Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>204</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3418846671</integer>
+			<key>Play Date UTC</key><date>2012-05-03T03:37:51Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2009-07-17T18:12:10Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D07F7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/01%20Come%20Together.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5356</key>
+		<dict>
+			<key>Track ID</key><integer>5356</integer>
+			<key>Name</key><string>Something</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5242176</integer>
+			<key>Total Time</key><integer>183040</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:36Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>189</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>31</integer>
+			<key>Play Date</key><integer>3480943764</integer>
+			<key>Play Date UTC</key><date>2014-04-21T20:49:24Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2012-07-22T05:03:46Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D07FA</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/02%20Something.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5358</key>
+		<dict>
+			<key>Track ID</key><integer>5358</integer>
+			<key>Name</key><string>Maxwell's Silver Hammer</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6087683</integer>
+			<key>Total Time</key><integer>207307</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:38Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>199</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>25</integer>
+			<key>Play Date</key><integer>3455100732</integer>
+			<key>Play Date UTC</key><date>2013-06-26T18:12:12Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2013-03-13T04:39:21Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D07FC</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/03%20Maxwell's%20Silver%20Hammer.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5360</key>
+		<dict>
+			<key>Track ID</key><integer>5360</integer>
+			<key>Name</key><string>Oh! Darling</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6081203</integer>
+			<key>Total Time</key><integer>206759</integer>
+			<key>Track Number</key><integer>4</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:39Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>200</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>23</integer>
+			<key>Play Date</key><integer>3421307888</integer>
+			<key>Play Date UTC</key><date>2012-05-31T15:18:08Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2014-11-05T15:21:04Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D07FE</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/04%20Oh!%20Darling.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5362</key>
+		<dict>
+			<key>Track ID</key><integer>5362</integer>
+			<key>Name</key><string>Octopus's Garden</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5603852</integer>
+			<key>Total Time</key><integer>171206</integer>
+			<key>Track Number</key><integer>5</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:40Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>219</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>16</integer>
+			<key>Play Date</key><integer>3503608128</integer>
+			<key>Play Date UTC</key><date>2015-01-09T04:28:48Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2012-01-14T18:23:27Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0800</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/05%20Octopus's%20Garden.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5364</key>
+		<dict>
+			<key>Track ID</key><integer>5364</integer>
+			<key>Name</key><string>I Want You (She's So Heavy)</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>13331109</integer>
+			<key>Total Time</key><integer>467226</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:42Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>212</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>30</integer>
+			<key>Play Date</key><integer>3453706405</integer>
+			<key>Play Date UTC</key><date>2013-06-10T14:53:25Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0802</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/06%20I%20Want%20You%20(She's%20So%20Heavy).mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5366</key>
+		<dict>
+			<key>Track ID</key><integer>5366</integer>
+			<key>Name</key><string>Here Comes The Sun</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5788032</integer>
+			<key>Total Time</key><integer>185600</integer>
+			<key>Track Number</key><integer>7</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:44Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>210</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3509032931</integer>
+			<key>Play Date UTC</key><date>2015-03-12T23:22:11Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2009-05-29T11:15:26Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0805</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/07%20Here%20Comes%20The%20Sun.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5368</key>
+		<dict>
+			<key>Track ID</key><integer>5368</integer>
+			<key>Name</key><string>Because</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5100330</integer>
+			<key>Total Time</key><integer>165590</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:45Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>202</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>39</integer>
+			<key>Play Date</key><integer>3480781376</integer>
+			<key>Play Date UTC</key><date>2014-04-19T23:42:56Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2014-03-02T03:12:06Z</date>
+			<key>Rating</key><integer>60</integer>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0807</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/08%20Because.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5370</key>
+		<dict>
+			<key>Track ID</key><integer>5370</integer>
+			<key>Name</key><string>You Never Give Me Your Money</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7268530</integer>
+			<key>Total Time</key><integer>242442</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:46Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>209</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3511962980</integer>
+			<key>Play Date UTC</key><date>2015-04-15T21:16:20Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2014-03-02T04:09:51Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0809</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/09%20You%20Never%20Give%20Me%20Your%20Money.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5372</key>
+		<dict>
+			<key>Track ID</key><integer>5372</integer>
+			<key>Name</key><string>Sun King</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4368337</integer>
+			<key>Total Time</key><integer>146364</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:47Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>189</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>22</integer>
+			<key>Play Date</key><integer>3505423598</integer>
+			<key>Play Date UTC</key><date>2015-01-30T04:46:38Z</date>
+			<key>Skip Count</key><integer>4</integer>
+			<key>Skip Date</key><date>2010-10-12T16:37:47Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D080B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/10%20Sun%20King.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5374</key>
+		<dict>
+			<key>Track ID</key><integer>5374</integer>
+			<key>Name</key><string>Mean Mr. Mustard</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2796422</integer>
+			<key>Total Time</key><integer>66351</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:47Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>227</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>17</integer>
+			<key>Play Date</key><integer>3422995599</integer>
+			<key>Play Date UTC</key><date>2012-06-20T04:06:39Z</date>
+			<key>Skip Count</key><integer>6</integer>
+			<key>Skip Date</key><date>2009-11-28T17:38:47Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D080D</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/11%20Mean%20Mr.%20Mustard.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5376</key>
+		<dict>
+			<key>Track ID</key><integer>5376</integer>
+			<key>Name</key><string>Polythene Pam</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>2861249</integer>
+			<key>Total Time</key><integer>72777</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:48Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>214</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3505442078</integer>
+			<key>Play Date UTC</key><date>2015-01-30T09:54:38Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D080F</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/12%20Polythene%20Pam.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5378</key>
+		<dict>
+			<key>Track ID</key><integer>5378</integer>
+			<key>Name</key><string>She Came In Through The Bathroom Window</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4156982</integer>
+			<key>Total Time</key><integer>117786</integer>
+			<key>Track Number</key><integer>13</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:49Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>220</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>28</integer>
+			<key>Play Date</key><integer>3463211969</integer>
+			<key>Play Date UTC</key><date>2013-09-28T15:19:29Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0811</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/13%20She%20Came%20In%20Through%20The%20Bathroom%20Window.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5380</key>
+		<dict>
+			<key>Track ID</key><integer>5380</integer>
+			<key>Name</key><string>Golden Slumbers</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3096389</integer>
+			<key>Total Time</key><integer>91637</integer>
+			<key>Track Number</key><integer>14</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:49Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>191</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>32</integer>
+			<key>Play Date</key><integer>3481196913</integer>
+			<key>Play Date UTC</key><date>2014-04-24T19:08:33Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2011-01-11T17:46:26Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0813</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/14%20Golden%20Slumbers.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5382</key>
+		<dict>
+			<key>Track ID</key><integer>5382</integer>
+			<key>Name</key><string>Carry That Weight</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3519638</integer>
+			<key>Total Time</key><integer>96914</integer>
+			<key>Track Number</key><integer>15</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:50Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>215</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>26</integer>
+			<key>Play Date</key><integer>3505403212</integer>
+			<key>Play Date UTC</key><date>2015-01-29T23:06:52Z</date>
+			<key>Skip Count</key><integer>7</integer>
+			<key>Skip Date</key><date>2014-04-24T19:28:05Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0815</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/15%20Carry%20That%20Weight.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5384</key>
+		<dict>
+			<key>Track ID</key><integer>5384</integer>
+			<key>Name</key><string>The End</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>4177641</integer>
+			<key>Total Time</key><integer>139885</integer>
+			<key>Track Number</key><integer>16</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:50Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>187</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3511961024</integer>
+			<key>Play Date UTC</key><date>2015-04-15T20:43:44Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2013-05-09T20:37:50Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Sort Name</key><string>End</string>
+			<key>Persistent ID</key><string>A691AA98E51D0817</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/16%20The%20End.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>5386</key>
+		<dict>
+			<key>Track ID</key><integer>5386</integer>
+			<key>Name</key><string>Her Majesty</string>
+			<key>Artist</key><string>The Beatles</string>
+			<key>Album Artist</key><string>The Beatles</string>
+			<key>Album</key><string>Abbey Road</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>1458924</integer>
+			<key>Total Time</key><integer>23327</integer>
+			<key>Track Number</key><integer>17</integer>
+			<key>Track Count</key><integer>17</integer>
+			<key>Year</key><integer>1969</integer>
+			<key>Date Modified</key><date>2008-12-29T16:31:51Z</date>
+			<key>Date Added</key><date>2007-12-21T04:18:59Z</date>
+			<key>Bit Rate</key><integer>189</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Part Of Gapless Album</key><true/>
+			<key>Play Count</key><integer>31</integer>
+			<key>Play Date</key><integer>3480925802</integer>
+			<key>Play Date UTC</key><date>2014-04-21T15:50:02Z</date>
+			<key>Skip Count</key><integer>2</integer>
+			<key>Skip Date</key><date>2009-04-05T20:59:02Z</date>
+			<key>Album Rating</key><integer>60</integer>
+			<key>Album Rating Computed</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album Artist</key><string>Beatles</string>
+			<key>Sort Artist</key><string>Beatles</string>
+			<key>Persistent ID</key><string>A691AA98E51D0819</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/The%20Beatles/Abbey%20Road/17%20Her%20Majesty.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+				<key>6180</key>
+		<dict>
+			<key>Track ID</key><integer>6180</integer>
+			<key>Name</key><string>Always Look On the Bright Side of Life</string>
+			<key>Artist</key><string>Monty Python</string>
+			<key>Album Artist</key><string>Monty Python</string>
+			<key>Album</key><string>Monty Python Sings</string>
+			<key>Genre</key><string>Comedy</string>
+			<key>Kind</key><string>Protected AAC audio file</string>
+			<key>Size</key><integer>3680080</integer>
+			<key>Total Time</key><integer>215363</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>1991</integer>
+			<key>Date Modified</key><date>2014-10-25T00:08:40Z</date>
+			<key>Date Added</key><date>2007-12-21T04:19:24Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>8</integer>
+			<key>Play Date</key><integer>3345004617</integer>
+			<key>Play Date UTC</key><date>2009-12-30T11:56:57Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2010-06-22T00:48:04Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A691AA98E51D0EE9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Protected</key><true/>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/Monty%20Python/Monty%20Python%20Sings/01%20Always%20Look%20On%20the%20Bright%20Side%20of%20Life.m4p</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>10534</key>
+		<dict>
+			<key>Track ID</key><integer>10534</integer>
+			<key>Name</key><string>Excuse Me</string>
+			<key>Artist</key><string>Da' Zoo</string>
+			<key>Album Artist</key><string>Da Zoo</string>
+			<key>Composer</key><string>Raul Jorge Quezada Lugo, Freddie Lugo &#38; Carlos Rodríguez</string>
+			<key>Album</key><string>Da' Zoo</string>
+			<key>Genre</key><string>Latin Urban</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7148009</integer>
+			<key>Total Time</key><integer>207573</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2008</integer>
+			<key>Date Modified</key><date>2014-11-05T17:36:07Z</date>
+			<key>Date Added</key><date>2009-08-19T01:06:35Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>9</integer>
+			<key>Play Date</key><integer>3498039574</integer>
+			<key>Play Date UTC</key><date>2014-11-05T17:39:34Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2014-03-02T04:22:47Z</date>
+			<key>Release Date</key><date>2009-08-17T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Da' Zoo</string>
+			<key>Sort Artist</key><string>Da' Zoo</string>
+			<key>Sort Name</key><string>Excuse Me</string>
+			<key>Persistent ID</key><string>773FAB8430708A38</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/Da%20%20Zoo/Excuse%20Me%20-%20Cancio%CC%81n%20de%20la%20Semana/01%20Excuse%20Me.m4a</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+				<key>13818</key>
+		<dict>
+			<key>Track ID</key><integer>13818</integer>
+			<key>Name</key><string>#1222: Burnt Clutches, Blown Relationships</string>
+			<key>Artist</key><string>NPR</string>
+			<key>Album</key><string>NPR: Car Talk Podcast</string>
+			<key>Genre</key><string>Podcast</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>25771406</integer>
+			<key>Total Time</key><integer>3213217</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2012-06-05T12:30:56Z</date>
+			<key>Date Added</key><date>2012-06-05T12:30:56Z</date>
+			<key>Bit Rate</key><integer>64</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>1</integer>
+			<key>Play Date</key><integer>3452873170</integer>
+			<key>Play Date UTC</key><date>2013-05-31T23:26:10Z</date>
+			<key>Release Date</key><date>2012-06-02T19:09:20Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>7A8A2372C6854615</string>
+			<key>Track Type</key><string>File</string>
+			<key>Podcast</key><true/>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/Podcasts/NPR_%20Car%20Talk%20Podcast/01%20%231222_%20Burnt%20Clutches,%20Blown%20Relationships.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+				<key>16874</key>
+		<dict>
+			<key>Track ID</key><integer>16874</integer>
+			<key>Name</key><string>Chain My Name</string>
+			<key>Artist</key><string>POLIÇA</string>
+			<key>Album</key><string>Shulamith</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>9909982</integer>
+			<key>Total Time</key><integer>247640</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2013</integer>
+			<key>Date Modified</key><date>2015-03-01T19:37:35Z</date>
+			<key>Date Added</key><date>2015-03-01T19:37:18Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>3</integer>
+			<key>Play Date</key><integer>3508960196</integer>
+			<key>Play Date UTC</key><date>2015-03-12T03:09:56Z</date>
+			<key>Persistent ID</key><string>FB67E03B456AC553</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/Songs/Hipsters/POLIC%CC%A7A%20-%20Chain%20My%20Name.mp3</string>
+			<key>File Folder Count</key><integer>3</integer>
+			<key>Library Folder Count</key><integer>2</integer>
+		</dict>
+		<key>16876</key>
+		<dict>
+			<key>Track ID</key><integer>16876</integer>
+			<key>Name</key><string>Freaking Out the Neighborhood</string>
+			<key>Artist</key><string>Mac Demarco</string>
+			<key>Album Artist</key><string>Mac Demarco</string>
+			<key>Album</key><string>2</string>
+			<key>Genre</key><string>Alternative</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5621760</integer>
+			<key>Total Time</key><integer>173949</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>2012</integer>
+			<key>Date Modified</key><date>2015-03-02T15:12:43Z</date>
+			<key>Date Added</key><date>2015-03-02T15:08:00Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2015-03-02T16:52:58Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>385668ECFD811BEB</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/Songs/Hipsters/Mac%20DeMarco%20-%20Freaking%20Out%20the%20Neighborhood.mp3</string>
+			<key>File Folder Count</key><integer>3</integer>
+			<key>Library Folder Count</key><integer>2</integer>
+		</dict>
+				<key>16934</key>
+		<dict>
+			<key>Track ID</key><integer>16934</integer>
+			<key>Name</key><string>In Love With a Thug (Radio Edit) [feat. R. Kelly]</string>
+			<key>Artist</key><string>Sharissa</string>
+			<key>Album Artist</key><string>Sharissa</string>
+			<key>Album</key><string>In Love With a Thug (Radio Edit) [feat. R. Kelly] - Single</string>
+			<key>Genre</key><string>R&#38;B/Soul</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>3732534</integer>
+			<key>Total Time</key><integer>227337</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>1</integer>
+			<key>Year</key><integer>2005</integer>
+			<key>Date Modified</key><date>2015-01-06T18:26:10Z</date>
+			<key>Date Added</key><date>2005-08-25T22:59:20Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2005-06-28T07:00:00Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>In Love With a Thug (Radio Edit) [feat. R. Kelly] - Single</string>
+			<key>Sort Artist</key><string>Sharissa</string>
+			<key>Sort Name</key><string>In Love With a Thug (Radio Edit) [feat. R. Kelly]</string>
+			<key>Persistent ID</key><string>89E39CDA89C7056F</string>
+			<key>Track Type</key><string>Remote</string>
+			<key>Purchased</key><true/>
+		</dict>
+				<key>17324</key>
+		<dict>
+			<key>Track ID</key><integer>17324</integer>
+			<key>Name</key><string>アスカBad Girl (w-Lancaster)</string>
+			<key>Artist</key><string>マクロスMACROSS 82-99</string>
+			<key>Album</key><string>A Million Miles Away</string>
+			<key>Genre</key><string>Electronic</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>3692366</integer>
+			<key>Total Time</key><integer>174262</integer>
+			<key>Track Number</key><integer>9</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2015-04-30T17:52:56Z</date>
+			<key>Date Added</key><date>2015-04-30T17:47:21Z</date>
+			<key>Bit Rate</key><integer>128</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>2</integer>
+			<key>Play Date</key><integer>3513762706</integer>
+			<key>Play Date UTC</key><date>2015-05-06T17:11:46Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2015-04-30T17:47:34Z</date>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Million Miles Away</string>
+			<key>Persistent ID</key><string>F596265E9209EC26</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/Songs/Anything%20remotely%20electronic/%E3%83%9E%E3%82%AF%E3%83%AD%E3%82%B9MACROSS%2082-99%20-%20%20%E3%82%A2%E3%82%B9%E3%82%ABBad%20Girl%20(w-Lancaster).mp3</string>
+			<key>File Folder Count</key><integer>3</integer>
+			<key>Library Folder Count</key><integer>2</integer>
+		</dict>
+				<key>38024</key>
+		<dict>
+			<key>Track ID</key><integer>38024</integer>
+			<key>Name</key><string>Paei, Paei (Πάει, Πάει)</string>
+			<key>Artist</key><string>Γιώργος Ζαμπέτας &#38; Βίκυ Μοσχολιού</string>
+			<key>Album</key><string>Τα Μεγάλα Τραγούδια</string>
+			<key>Genre</key><string>World</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7199011</integer>
+			<key>Total Time</key><integer>174445</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>15</integer>
+			<key>Year</key><integer>2014</integer>
+			<key>Date Modified</key><date>2015-05-08T03:33:29Z</date>
+			<key>Date Added</key><date>2015-05-08T02:59:42Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Comments</key><string>MOFE70</string>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2015-05-08T03:30:04Z</date>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>E3E57822401832E9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/Songs/Other/Giorgos%20Zampetas%20&#38;%20Vicky%20Moscholiou%20-%20Paei%20Paei.mp3</string>
+			<key>File Folder Count</key><integer>3</integer>
+			<key>Library Folder Count</key><integer>2</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>Library</string>
+			<key>Master</key><true/>
+			<key>Playlist ID</key><integer>18490</integer>
+			<key>Playlist Persistent ID</key><string>381899F85D520BD9</string>
+			<key>Visible</key><false/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>5354</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5356</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5358</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5360</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5362</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5364</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5366</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5368</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5370</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5372</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5374</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5376</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5378</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5380</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5382</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5384</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5386</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>6180</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10534</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>13818</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>16874</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>16876</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>16934</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17324</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>38024</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Music</string>
+			<key>Playlist ID</key><integer>23730</integer>
+			<key>Playlist Persistent ID</key><string>381899F85D520BE3</string>
+			<key>Distinguished Kind</key><integer>4</integer>
+			<key>Music</key><true/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+								<dict>
+					<key>Track ID</key><integer>5354</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5356</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5358</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5360</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5362</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5364</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5366</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5368</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5370</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5372</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5374</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5376</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5378</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5380</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5382</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5384</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>5386</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>6180</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>10534</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>16874</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>16876</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>16934</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>17324</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>38024</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>Name</key><string>Podcasts</string>
+			<key>Playlist ID</key><integer>28766</integer>
+			<key>Playlist Persistent ID</key><string>381899F85D520BE2</string>
+			<key>Distinguished Kind</key><integer>10</integer>
+			<key>Podcasts</key><true/>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>13818</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
