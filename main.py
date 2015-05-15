@@ -107,7 +107,9 @@ def exact_match_songs(isonglist, gsonglist):
     imatches = []
 
     for gsong in gsonglist:
-        imatch = next((isong for isong in isonglist if isong['Name'] == gsong['title']), None)
+        imatch = next((isong for isong in isonglist
+                       if isong['Name'] == gsong['title']
+                       and isong['Artist'] == gsong['artist']), None)
         # print(imatch)
         if imatch:
             gmatches.append(gsong['id'])
