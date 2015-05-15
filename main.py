@@ -55,6 +55,11 @@ def load_itunes(libpath):
     assert all(isinstance(song, dict) for song in songs)
 
     #Later in life, I'll use pyItunes' data cleaning code.
+    for song in songs:
+        if 'Artist' not in song:
+            song['Artist'] = ""
+        if 'Title' not in song:
+            song['Name'] = ""
 
     return songs
 
@@ -108,8 +113,7 @@ def exact_match_songs(isonglist, gsonglist):
 
     for gsong in gsonglist:
         imatch = next((isong for isong in isonglist
-                       if isong['Name'] == gsong['title']
-                       and isong['Artist'] == gsong['artist']), None)
+                       if isong['Name'] == gsong['title'] and isong['Artist'] == gsong['artist']), None)
         # print(imatch)
         if imatch:
             gmatches.append(gsong['id'])
