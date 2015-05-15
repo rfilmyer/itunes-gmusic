@@ -636,6 +636,64 @@
 			<key>File Folder Count</key><integer>4</integer>
 			<key>Library Folder Count</key><integer>1</integer>
 		</dict>
+        		<key>6526</key>
+		<dict>
+			<key>Track ID</key><integer>6526</integer>
+			<key>Name</key><string>Girlfriend</string>
+			<key>Artist</key><string>Matthew Sweet</string>
+			<key>Album</key><string>Girlfriend</string>
+			<key>Grouping</key><string>Guitar Hero II</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>5893973</integer>
+			<key>Total Time</key><integer>220081</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Year</key><integer>1991</integer>
+			<key>Date Modified</key><date>2015-05-15T17:15:36Z</date>
+			<key>Date Added</key><date>2007-12-21T04:19:35Z</date>
+			<key>Bit Rate</key><integer>213</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>21</integer>
+			<key>Play Date</key><integer>3409106180</integer>
+			<key>Play Date UTC</key><date>2012-01-11T09:56:20Z</date>
+			<key>Skip Count</key><integer>5</integer>
+			<key>Skip Date</key><date>2015-05-15T17:15:08Z</date>
+			<key>Persistent ID</key><string>A691AA98E51D12A9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/Matthew%20Sweet/Girlfriend/03%20Girlfriend.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+
+        		<key>7400</key>
+		<dict>
+			<key>Track ID</key><integer>7400</integer>
+			<key>Name</key><string>Girlfriend</string>
+			<key>Artist</key><string>Avril Lavigne</string>
+			<key>Album</key><string>The Best Damn Thing</string>
+			<key>Genre</key><string>Pop</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>6612503</integer>
+			<key>Total Time</key><integer>217155</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2009-07-18T15:42:05Z</date>
+			<key>Date Added</key><date>2007-12-21T04:19:48Z</date>
+			<key>Bit Rate</key><integer>242</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>19</integer>
+			<key>Play Date</key><integer>3505414396</integer>
+			<key>Play Date UTC</key><date>2015-01-30T02:13:16Z</date>
+			<key>Skip Count</key><integer>3</integer>
+			<key>Skip Date</key><date>2010-08-29T17:39:24Z</date>
+			<key>Sort Album</key><string>Best Damn Thing</string>
+			<key>Persistent ID</key><string>A691AA98E51D17D7</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/roger/Music/iTunes/iTunes%20Music/Avril%20Lavigne/The%20Best%20Damn%20Thing/01%20Girlfriend.mp3</string>
+			<key>File Folder Count</key><integer>4</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+        </dict>
 		<key>10534</key>
 		<dict>
 			<key>Track ID</key><integer>10534</integer>
@@ -994,6 +1052,12 @@
 				</dict>
 				<dict>
 					<key>Track ID</key><integer>6180</integer>
+				</dict>
+                <dict>
+					<key>Track ID</key><integer>6526</integer>
+				</dict>
+                <dict>
+					<key>Track ID</key><integer>7400</integer>
 				</dict>
 				<dict>
 					<key>Track ID</key><integer>10534</integer>
