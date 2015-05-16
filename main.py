@@ -17,6 +17,10 @@
 
 import plistlib  # Later, I'll use pyItunes
 import gmusicapi
+
+# from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
+
 # import fuzzywuzzy # Fuzzy string matching!
 
 #Broadly, Functions needed:
@@ -60,7 +64,6 @@ def load_itunes(libpath):
             song['Artist'] = ""
         if 'Title' not in song:
             song['Name'] = ""
-
     return songs
 
 
@@ -139,25 +142,62 @@ def exact_match_songs(isonglist, gsonglist):
 
     return result
 
-def close_match_songs(isonglist, gsonglist, closematch=False, tolerance=2):
+def close_match_songs(isonglist, gsonglist, tolerance=80):
     """
-    :param isonglist: A list of dicts of songs from iTunes
-    :param isonglist: A list of dicts of songs from Google Play Music
-    :param closematch: Whether to look for exact matches or close matches.
-    :param tolerance: Levenshtein distance between 2 track names/artists.
+    :param tolerance: fuzzywuzzy ratio (0-100).
     :return: A dict of lists of tuples.
     Each match is a tuple between an iTunes trackID and a Google trackID
     """
-    #tuples match itunes trackIDs with gmusic nids
+    #tuples match itunes trackIDs with gmusic ids
 
     #Lev D runtime is O(mn), should I worry about performance?
     #^  Note to self: Look up Levenshtein Automata later. O(n)
 
-    result = {"match": [], "closematch": [], "imismatch": [], "gmismatch": []}
+    exact_match_result = exact_match_songs(isonglist, gsonglist)
+    result = {"match": exact_match_result['match'], "closematch": [], "imismatch": [], "gmismatch": []}
 
     #match gmusic uploaded tracks with itunes tracks
-    for song in gsonglist:
-        pass
+    gmismatches = []
+    for trackid in exact_match_result['gmismatch']:
+        gmismatches.append(next(song for song in gsonglist if song['id'] == trackid))
+
+    imismatches = []
+    for trackid in exact_match_result['imismatch']:
+        imismatches.append(next(song for song in isonglist if song['Track ID'] == trackid))
+
+    gmatches = []
+    imatches = []
+
+    for gsong in gmismatches:
+        imatch = {}
+        artistmatch = process.extractOne(gsong['artist'], [isong['Artist'] for isong in imismatches])
+        if artistmatch[1] > tolerance:
+            titlematch = process.extractOne(gsong['title'],
+                                            [isong['Name'] for isong in imismatches
+                                                if isong['Artist'] == artistmatch[0]])
+            if titlematch[1] > tolerance:
+                imatch = next(isong for isong in imismatches
+                              if isong['Name'] == titlematch[0]
+                              and isong['Artist'] == artistmatch[0])
+                if imatch:
+                    gmatches.append(gsong['id'])
+                    imatches.append(imatch['Track ID'])
+                    result['closematch'].append((imatch['Track ID'], gsong['id']))
+
+    # print("gmatches: " + str(len(gmatches)))
+    # print("gmatches: " + str(gmatches[0:4]))
+
+    for gsong in gmismatches:
+        if gsong['id'] not in gmatches:
+            result['gmismatch'].append(gsong['id'])
+
+    # print("imatches: " + str(len(imatches)))
+    # print("imatches: " + str(imatches[0:4]))
+
+    for isong in imismatches:
+        if isong['Track ID'] not in imatches:
+            result['imismatch'].append(isong['Track ID'])
+
     return result
 
 
