@@ -62,7 +62,7 @@ def load_itunes(libpath):
     for song in songs:
         if 'Artist' not in song:
             song['Artist'] = ""
-        if 'Title' not in song:
+        if 'Name' not in song:
             song['Name'] = ""
     return songs
 
@@ -117,7 +117,6 @@ def exact_match_songs(isonglist, gsonglist):
     for gsong in gsonglist:
         imatch = next((isong for isong in isonglist
                        if isong['Name'] == gsong['title'] and isong['Artist'] == gsong['artist']), None)
-        # print(imatch)
         if imatch:
             gmatches.append(gsong['id'])
             imatches.append(imatch['Track ID'])
