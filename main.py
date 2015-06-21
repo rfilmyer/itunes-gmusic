@@ -94,7 +94,7 @@ class LoginError(Exception):
 def gmusic_getsongs(session):
     """
     :param session: expects a Mobileclient login session.
-    :return: Returns a dict of songs
+    :return: Returns a dict of songs formatted from
     """
     songs = session.get_all_songs()
     #Catch the NotLoggedIn exception
@@ -106,9 +106,11 @@ def gmusic_getsongs(session):
 #match iTunes songs to GPM songs
 def exact_match_songs(isonglist, gsonglist):
     """
-    :param isonglist:
-    :param gsonglist:
-    :return: A dict of lists of tuples.
+    :param isonglist: A dict of songs in an iTunes library, from load_itunes()
+    :param gsonglist: A dict of songs in a Google Music library, from gmusic_getsongs()
+    :return: A dict of lists. 'match' returns a list of tuples,
+    each tuple corresponding to an iTunes TrackID/ Google Music id match pair.
+    'imismatch' has iTunes TrackIDs with no match, 'gmusic' has Google Music ids with no match.
     """
     result = {"match": [], "imismatch": [], "gmismatch": []}
     gmatches = []
@@ -143,9 +145,13 @@ def exact_match_songs(isonglist, gsonglist):
 
 def close_match_songs(isonglist, gsonglist, tolerance=80):
     """
+
+    :param isonglist: A dict of songs in an iTunes library, from load_itunes()
+    :param gsonglist: A dict of songs in a Google Music library, from gmusic_getsongs()
     :param tolerance: fuzzywuzzy ratio (0-100).
-    :return: A dict of lists of tuples.
-    Each match is a tuple between an iTunes trackID and a Google trackID
+    :return: A dict of lists of tuples with keys match, closematch, imismatch, gmismatch.
+    'match': exact match pairs in tuples, 'closematch': close match pairs in tuples,
+    'imismatch': iTunes TrackIDs with no match, 'gmismatch' Google Music ids with no match.
     """
     #tuples match itunes trackIDs with gmusic ids
 
@@ -198,7 +204,6 @@ def close_match_songs(isonglist, gsonglist, tolerance=80):
             result['imismatch'].append(isong['Track ID'])
 
     return result
-
 
 #Updating Play Counts
 #2 ways - Either Applescript (mac only!) or spitting out a new XML file.
