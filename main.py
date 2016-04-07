@@ -44,8 +44,8 @@ def load_itunes(libpath):
     #That day is not today.
     ituneslib = plistlib.readPlist(libpath)
 
-    music = next(playlist for playlist in ituneslib['Playlists']
-             if playlist["Name"] == "Music")  # StackOverflow #8653516
+    music = (playlist for playlist in ituneslib['Playlists']
+             if playlist["Name"] == "Music").next()  # StackOverflow #8653516
     assert music['Name'] == 'Music' and music['All Items']
 
     songids = []
