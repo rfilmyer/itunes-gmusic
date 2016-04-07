@@ -13,15 +13,15 @@
 
 #gmusicapi requires Python 2. Watch it start being compatible with 3 as soon as I finish.
 
-#Tools: pyItunes and gmusicapi
 
-import plistlib  # Later, I'll use pyItunes
+import six # 2/3 compatibility
+import getpass
+
+import plistlib
 import gmusicapi
 
 # from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
-
-# import fuzzywuzzy # Fuzzy string matching!
 
 #Broadly, Functions needed:
 #Loading iTunes library
@@ -29,8 +29,8 @@ from fuzzywuzzy import process
 #Match iTunes songs to GPM songs
 #Updating Play Counts
 
-#More Specifically:
-
+if six.PY2:
+    input = raw_input
 
 #Loading iTunes library
 def load_itunes(libpath):
@@ -44,8 +44,8 @@ def load_itunes(libpath):
     #That day is not today.
     ituneslib = plistlib.readPlist(libpath)
 
-    music = (playlist for playlist in ituneslib['Playlists']
-             if playlist["Name"] == "Music").next()  # StackOverflow #8653516
+    music = next(playlist for playlist in ituneslib['Playlists']
+             if playlist["Name"] == "Music")  # StackOverflow #8653516
     assert music['Name'] == 'Music' and music['All Items']
 
     songids = []
@@ -74,21 +74,27 @@ def gmusic_login():
     :return: Returns a Mobileclient session
     """
     #What do I need to load gmusic?
-    username = raw_input("Google Username: ")
-    password = raw_input("Password (or app-specific password): ")
+    username = input("Google Username: ")
+    password = getpass.getpass("Password (or app-specific password): ")
     session = gmusicapi.Mobileclient()
-    login_result = session.login(username, password)
+    login_result = session.login(username, password, session.FROM_MAC_ADDRESS)
     if login_result:
         return session
     else:
-        raise LoginError
+        raise LoginError(username)
 
 
 class LoginError(Exception):
     """
     Exception for a bad Google login
     """
-    pass
+    def __init__(self, user=None):
+        self.user = user
+    def __str__(self):
+        if self.user:
+            return "Google user {0} failed to login to Play Music".format(self.user)
+        else:
+            return "Unsuccessful Google Play Music Login"
 
 
 def gmusic_getsongs(session):
